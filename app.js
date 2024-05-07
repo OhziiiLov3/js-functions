@@ -88,6 +88,14 @@ planetHasWater('Mars');    // should print true
 planetHasWater('Jupiter'); // should print false
 
 
+function computeArea(width, height){
+ const area = width * height; 
+return `The area of a rectangle with a width of ${width} and a height of ${height} is ${area} square units`
+}
+
+console.log(computeArea(5,25));
+
+
 
 
 
